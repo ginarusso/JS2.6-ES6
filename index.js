@@ -61,7 +61,7 @@ intervalID = setInterval(changeColors, 1000)
 
 const stopColorCheckBox = document.getElementById('stop')
 stopColorCheckBox.addEventListener('change', () => {
-    console.log("checkbox checked")
+    // console.log("checkbox checked")
     if (stopColorCheckBox.checked) {
         clearInterval(intervalID)
     } else {
