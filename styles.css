@@ -20,6 +20,7 @@ span {
     padding: 0 10px;
     box-shadow: 5px 5px black;
     text-shadow: 2px 2px black;
+    display: block;
 }
 
 section {
